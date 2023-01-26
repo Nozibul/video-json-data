@@ -1,0 +1,14 @@
+{
+    "name": "json-server-videos",
+    "description": "Example in memory videos api ",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "json-server --watch --delay 250 db_videos.json --no-cors true --port 9000"
+    },
+    "dependencies": {
+        "json-server": "^0.17.0"
+    },
+    "keywords": []
+    
+}
